@@ -1,0 +1,28 @@
+{
+    "name": "marblejs-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev src/index.ts",
+        "client": "ts-node src/client.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^14.14.22",
+        "@types/ws": "^7.4.0",
+        "ts-node": "^9.1.1",
+        "ts-node-dev": "^1.1.1",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {
+        "@marblejs/core": "^3.4.8",
+        "@marblejs/middleware-io": "^3.4.8",
+        "@marblejs/websockets": "^3.4.8",
+        "fp-ts": "^2.9.3",
+        "rxjs": "^6.6.3",
+        "ws": "^7.4.2"
+    }
+}
